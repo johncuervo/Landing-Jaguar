@@ -1,0 +1,34 @@
+body {
+  background: url("../images/jaguar-xe.jpg") no-repeat fixed center center;
+  background-size: cover;
+}
+
+.box {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  margin: 30px;
+  padding: 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+
+}
+
+h1 {
+  font-weight: 700;
+}
+
+input {
+  background-color: #DB3030;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+@media(min-width: 600px){
+  .box {
+    width: 600px;
+    margin: 80px;
+  }
+}
